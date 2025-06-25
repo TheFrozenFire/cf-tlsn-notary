@@ -10,9 +10,9 @@
   "containers": [
     {
       "class_name": "MyContainer",
-      "image": "./Dockerfile",
-      "max_instances": 10,
-      "name": "hello-containers"
+      "image": "registry.cloudflare.com/b22e0cb476976048f1f91cf0ef29ca63/notary-server:v0.1.0-alpha.10",
+      "max_instances": 1,
+      "name": "notary"
     }
   ],
   "durable_objects": {
